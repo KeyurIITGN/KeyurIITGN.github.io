@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Vanta.js and Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+</head>
+<body>
+    <div id="vanta-bg">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <!-- <li><a href="#blogs">Blogs</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <div class="container home-content">
+                <div class="text-content">
+                    <h1>Keyur Unadkat</h1>
+                    <p id="animated-text" class="typing"></p>
+                    <div class="icons">
+                        <a href="https://github.com/KeyurIITGN" target="_blank">
+                            <img src="github.jpg" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/keyur-unadkat/" target="_blank">
+                            <img src="linkedin.jpg" alt="LinkedIn">
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Vy-Hnpn94OPGUdcOGCuQCZL1khVZCJmp/view?usp=sharing" target="_blank">
+                            <img src="resume.jpg" alt="Resume">
+                        </a>
+                        <a href="https://leetcode.com/u/Keyur28/" target="_blank">
+                            <img src="leetcode.png" alt="College Website">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about" class="white-bg">
+        <div class="container about-content">
+            <div class="left-section">
+                <img src="keyur.jpg">
+            </div>
+            <div class="right-section">
+                <h2>About</h2>
+                <br>
+                <p>This is Keyur, a Machine Learning enthusiast and a passionate researcher. I'm currently pursuing my M.Tech in Computer 
+                Science and Engineering at the International Institute of Information Technology, Hyderabad, with a keen focus on leveraging AI to solve complex problems. </p>
+    
+                <p>My academic journey has been marked by a strong foundation in theory and practical applications. 
+                I have completed my Bachelors in Engineering from Gujarat Technological University with CGPA of 9.26</p>
+                    
+                <p>I've been a Machine Learning Researcher at Indian Space Research Organization (ISRO), where I did my reasearch on CYGNSS satellite data and buit state of the art machine learning models for wind speed estimation.</p>
+    
+                <p>Apart from that, I've been a full time student at IIT Gandhinagar for a semester under their semester experience programe. There I did research on graph neural networks.</p>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="education" class="cream-bg">
+        <div class="container education-content">
+            <div class="left-section">
+                <h2>Educational Qualification</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>International Institute of Information Technology(IIIT‑H)</h4>
+                            <h4>Master's in Technology &#40;M.Tech&#41;</h4>
+                            <p>July 2024 - June 2026</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Science and Engineering</h4>
+                            <!-- <p>CGPA: 8.41/10.0</p> -->
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>Gujarat Technological University</h4>
+                            <h4>Bachelor's in Engineering&#40;B.Tech&#41;</h4>
+                            <p>August 2019 - June 2023</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Engineering</h4>
+                            <p>CGPA: 9.26/10.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>Ambuja Vidya Niketan, Ambujanagar </h4>
+                            <p>July 2008 - June 2019</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Senior Secondary Examination CBSE - Class XII</h4>
+                            <p>PERCENTAGE: 93.4%</p>
+                            <h4>Higher Secondary Examination CBSE - Class X</h4>
+                            <p>CGPA 10.0/10.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+    <section id="experience" class="white-bg">
+        <div class="container">
+            <h1>My Work Experience</h1>
+            <div class="timeline-2">
+                <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Indian Space Research Organization, Ahmedabad</h3>
+                        <p>February 2023 - October 2023</p>
+                    </div>
+                    <div class="circle green"></div>
+                    <div class="right-content">
+                        <h4>Reseacher &#40;Space Applications Center&#41;</h4>
+                        <br>
+                        <ul><li>Developed advanced Machine Learning and Deep Learning models to retrieve oceanic surface wind speed
+                            using GNSS Reflectometry with the CYGNSS L1 dataset.</li>
+                       <li> These models outperformed existing state of the art machine learning models, enhancing the accuracy of wind speed estimation.
+
+                       </ul>
+                    </div>
+                </div>
+                    <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Indian Institute of Technology, Gandhinagar</h3>
+                        <p>May 2022 - July 2022</p>
+                    </div>
+                    <div class="circle yellow"></div>
+                    <div class="right-content">
+                        <h4>Research Intern &#40;Computer Vision Lab&#41;</h4>
+                        <br>
+                        <ul><li>Created a synthetic dataset with 3D models from ShapeNet and CNR and developed a method to extract holes from a mesh structure.</li>
+                            <li>Worked on graph neural networks and their deeper derivatives for 3D mesh completion</li></ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="cream-bg">
+        <h2>Technical Skills</h2>
+        <div class="container skills-content">
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Core CS</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">SHELL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">PYTHON</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                         <!-- Tensorflow, Pytorch, NumPy, Pandas, Flask, Open3D, OpenCV -->
+                        <li>
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">DSA</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>ML / DS</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Pytorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Tensorflow</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Management Skills</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">Project Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Team Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="work" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>My Latest Projects</h2>
+                <a href="https://github.com/KeyurIITGN?tab=repositories" class="explore-more">Explore More</a>
+            </div>
+            <div class="works-container">
+                <div class="works">
+                    <div class="work-item yellow">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Surface Wind speed retrieval using ML on CYGNSS GNSS-R Data</div>
+                                <img src="project1.png" alt=App Design">
+                            </div>
+                            <div class="back">
+                                <p>The project focuses on the development Machine learning models for the retrieval of ocienic winds using GNSS-R data from
+                                    CYGNSS cluster of satellites. We used various architectures of neural networks and in one of the instance explored powerful technique of Principal Component Analysis on the CYGNSS L1 dataset, with the ECMWF wind dataset as a reference.                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Uncertainty in NILM</div>
+                                <img src="project2.jpg" alt="Web Design">
+                            </div>
+                            <div class="back">
+                                <p>The project aims to predict the uncertainty in deep learning models of Non-Intrusive Load Monitoring
+                                    (NILM) models (Seq2Seq and Seq2Point) using MC dropout and deep ensemble methods.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item light-green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Decision Tree from scratch </div>
+                                <img src="project3.png" alt="Brand Identity">
+                            </div>
+                            <div class="back">
+                                <p>A python project made just using Pandas and NumPy library which provides functionalities similar to
+                                    Scikit-learn implementation of decision trees to train, test and evaluate decision tree models on any data.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="work-nav">
+                <button class="scroll-left">Previous</button>
+                <button class="scroll-right">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="achievements" class="cream-bg">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-container">
+                <div class="achievement-item">
+                    <h3>99.1 Percentile, Graduate Aptitude Test in Engineering (GATE) CS (Computer Science ) - 2024</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>All India Rank 63 in IIIT Hyderabad PGEE</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>Endowed with Shree Dewang Mehta IT Award for being top ranker in Computer Department- 2023</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>1 among 32 students in INDIA to receive Schaeffler India HOPE scholarship, for excellent academic
+                        performance.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="publications" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>Publications</h2>
+            </div>
+            <div class="publications-container">
+                <div class="publication-item">
+                    <div class="description">
+                        <p>Developed advanced Machine Learning and Deep Learning models to retrieve oceanic surface wind speed
+                            using GNSS Reflectometry with the CYGNSS L1 dataset. These models outperformed existing
+                            approaches, enhancing the accuracy of wind speed estimation. This work is set to be published in IEEE
+                            Geoscience and Remote Sensing Letters(GRSL).</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Surface Wind speed retrieval using ML on CYGNSS GNSS-R Data</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="description">
+                        <p>The paper aims to predict the uncertainty in deep learning models of Non-Intrusive Load Monitoring
+                            (NILM) models (Seq2Seq and Seq2Point) using MC dropout and deep ensemble methods.</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Uncertainty in Non Instrusive Load Monitoring</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- <section id="blogs" class="yellow-bg">
+        <div class="container blogs-content">
+            <h1 class="section-title">CHECK THIS OUT!!</h1>
+            <div class="blogs-items">
+                <div class="blog-item">
+                    <a href="blog1.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog2.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog3.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog4.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="caption-link.html" class="link-caption">Link to the Blogs!</a>
+        </div>
+    </section> -->
+    
+    <section id="contact" class="white-bg">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="left-section">
+                    <h2>Start by saying Hi!!</h2>
+                    <p>Send me an email!!</p>
+                    <p>Email: <a href="mailto:keyur28.unadkat@gmail.com">keyur28.unadkat@gmail.com</a></p>
+                </div>
+                <div class="right-section">
+                    <form action="mailto:keyur28.unadkat@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; KeyurIITGN. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x6ABEDC,  // Net lines color
+  backgroundColor: 0x1B1611  // Background color
+});
+        document.addEventListener('DOMContentLoaded', function(){
+            const textElement = document.getElementById('animated-text');
+            const phrases = ["Machine Learning Enthusiast", "AI Innovator, with a Passion for Photography"];
+            let currentPhraseIndex = 0;
+            let currentCharIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentPhrase = phrases[currentPhraseIndex];
+                if (isDeleting) {
+                    currentCharIndex--;
+                } else {
+                    currentCharIndex++;
+                }
+
+                textElement.textContent = currentPhrase.substring(0, currentCharIndex);
+
+                if (!isDeleting && currentCharIndex === currentPhrase.length) {
+                    isDeleting = true;
+                    setTimeout(type, 2000);  // Pause before deleting
+                } else if (isDeleting && currentCharIndex === 0) {
+                    isDeleting = false;
+                    currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                    setTimeout(type, 500);  // Pause before typing the next phrase
+                } else {
+                    setTimeout(type, isDeleting ? 50 : 100);
+                }
+            }
+
+            type();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollContainer = document.querySelector('.works-container');
+            const scrollLeft = document.querySelector('.scroll-left');
+            const scrollRight = document.querySelector('.scroll-right');
+            const workItems = document.querySelectorAll('.work-item');
+
+            let currentIndex = 0;
+            const maxIndex = workItems.length - 3; // We show 3 items at a time
+
+            function updateScrollPosition() {
+                const offset = currentIndex * (scrollContainer.clientWidth / 3);
+                scrollContainer.scrollTo({
+                    left: offset,
+                    behavior: 'smooth'
+                });
+            }
+
+            scrollLeft.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                }
+                updateScrollPosition();
+            });
+
+            scrollRight.addEventListener('click', () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                }
+                updateScrollPosition();
+            });
+        });
+    </script>
+</body>
+</html>
